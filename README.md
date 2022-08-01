@@ -28,7 +28,7 @@ Math magicians is a website for all fans of mathematics. It is a Single Page App
 
 ## Live Demo
 
-[Live Demo Link](https://wayungi.github.io/ToDoListApp/)
+[Live Demo Link](https://math-magicin.herokuapp.com/)
 
 ## Authors
 
