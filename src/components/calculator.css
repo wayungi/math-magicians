@@ -1,39 +1,45 @@
-div.calculator {
-   display: grid;
-   grid-template-rows: 2;
-   grid-template-columns: 1;
-   width:30%;
-
-   margin: 40px auto;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.screen, .keyboard {
-    outline:1px solid rgba(150,150,150,.5);
+div.calculator {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 80%;
+  width: 30%;
+  margin: 40px auto;
+}
+
+.screen,
+.keyboard {
+  outline: 1px solid rgba(150, 150, 150, 0.5);
 }
 
 .screen {
-    height:50px;
-    background-color: rgba(150,150,150,.5);
-    font-size: 2rem;
-    display:flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding: 2px 10px;
-    color:white;
+  height: 100%;
+  background-color: rgba(150, 150, 150, 0.5);
+  font-size: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 2px 10px;
+  color: white;
 }
 
 .numpad {
-    all:unset;
-    width:25%;
-    height:40px;
-    outline:0.01rem solid rgba(150,150,150,.5);
-    text-align: center;
+  all: unset;
+  width: 25%;
+  height: 40px;
+  outline: 0.01rem solid rgba(150, 150, 150, 0.5);
+  text-align: center;
 }
 
 .zero {
-    width:50%;
+  width: 50%;
 }
 
 .operator {
-    background-color: rgb(245, 121, 0);
+  background-color: rgb(245, 121, 0);
 }
