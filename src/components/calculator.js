@@ -27,7 +27,7 @@ class Calculator extends Component {
           <button type="button" className="numpad">3</button>
           <button type="button" className="numpad">+</button>
 
-          <button type="button" className="numpad">0</button>
+          <button type="button" className="numpad zero">0</button>
           <button type="button" className="numpad">.</button>
           <button type="button" className="numpad">=</button>
         </div>

@@ -6,10 +6,22 @@ div.calculator {
 }
 
 .screen, .keyboard {
-    outline:1px solid black;
+    outline:1px solid rgba(150,150,150,.5);
 }
 
 .screen {
     height:50px;
     background-color: rgba(150,150,150,.5);
+}
+
+.numpad {
+    all:unset;
+    width:25%;
+    height:40px;
+    outline:0.01rem solid rgba(150,150,150,.5);
+    text-align: center;
+}
+
+.zero {
+    width:50%;
 }
