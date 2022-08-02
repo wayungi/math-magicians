@@ -15,7 +15,7 @@ class Calculator extends Component {
           <button type="button" className="numpad ">7</button>
           <button type="button" className="numpad">8</button>
           <button type="button" className="numpad">9</button>
-          <button type="button" className="numpad">&times;</button>
+          <button type="button" className="numpad operator">&times;</button>
 
           <button type="button" className="numpad">4</button>
           <button type="button" className="numpad">5</button>

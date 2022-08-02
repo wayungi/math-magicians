@@ -19,6 +19,7 @@ div.calculator {
     justify-content: flex-end;
     align-items: flex-end;
     padding: 2px 10px;
+    color:white;
 }
 
 .numpad {
@@ -31,4 +32,8 @@ div.calculator {
 
 .zero {
     width:50%;
+}
+
+.operator {
+    background-color: rgb(245, 121, 0);
 }
