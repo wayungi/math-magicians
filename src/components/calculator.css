@@ -1,0 +1,15 @@
+div.calculator {
+   display: grid;
+   grid-template-rows: 2;
+   grid-template-columns: 1;
+   width:30%;
+}
+
+.screen, .keyboard {
+    outline:1px solid black;
+}
+
+.screen {
+    height:50px;
+    background-color: rgba(150,150,150,.5);
+}
