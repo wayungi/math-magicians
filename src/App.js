@@ -1,13 +1,13 @@
-/* eslint-disable react/prefer-stateless-function */
+/**
+ * /* eslint-disable react/prefer-stateless-function
+ *
+ * @format
+ */
 
-import React from 'react';
+// import React from 'react';
 import Calculator from './components/Calculator';
 import './components/calculator.css';
 
-class App extends React.Component {
-  render() {
-    return <Calculator />;
-  }
-}
+const App = () => <Calculator />;
 
 export default App;
