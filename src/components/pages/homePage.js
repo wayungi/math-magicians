@@ -1,3 +1,3 @@
-const HomePage = () => console.log('home page');
+const HomePage = () => (<p>home page</p>);
 
 export default HomePage;

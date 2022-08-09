@@ -1,3 +1,3 @@
-const CalculatorPage = () => console.log('calculator page');
+const CalculatorPage = () => (<p>calculator page</p>);
 
 export default CalculatorPage;
