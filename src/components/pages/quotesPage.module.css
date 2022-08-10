@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root {
+  --light: rgb(224, 141, 121);
+}
+
+.quotesWrapper {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+}
+
+.quotesWrapper p {
+  font-family: 'Rubik', sans-serif;
+  color: var(--light);
+}
