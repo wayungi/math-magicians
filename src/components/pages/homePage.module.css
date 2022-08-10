@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+:root {
+    --light: rgb(224, 141, 121);
+    --active: rgb(168, 130, 221);
+    --hover: rgb(121, 98, 165);
+    --linkBg: rgb(73, 65, 109);
+    --dark: rgb(73, 65, 109);
+}
+
+.homePage {
+    /* outline:1px solid black; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:3rem 0 1rem 0;
+}
+
+.homePage h1 {
+    font-family: 'Mouse Memoirs', sans-serif;
+    color: var(--light);
+    padding-bottom: 2rem;
+
+}
