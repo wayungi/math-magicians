@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 :root {
     --light: rgb(224, 141, 121);
@@ -20,5 +21,12 @@
     font-family: 'Mouse Memoirs', sans-serif;
     color: var(--light);
     padding-bottom: 2rem;
+}
+
+.homePage p {
+    font-family: 'Rubik', sans-serif;
+    margin-bottom:1.5rem;
+    line-height: 1.8rem;
+    padding: 0 3rem;
 
 }
