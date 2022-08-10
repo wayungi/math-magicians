@@ -1,56 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
 
 :root {
-    --light: rgb(224, 141, 121);
-    --active: rgb(168, 130, 221);
-    --hover: rgb(121, 98, 165);
-    --linkBg: rgb(73, 65, 109);
-    --dark: rgb(73, 65, 109);
-    
+  --light: rgb(224, 141, 121);
+  --active: rgb(168, 130, 221);
+  --hover: rgb(121, 98, 165);
+  --linkBg: rgb(73, 65, 109);
+  --dark: rgb(73, 65, 109);
 }
+
 .header {
-    display:flex;
-    flex-direction: row;
-    justify-content:space-between;
-    padding: 1rem 4rem;
-    margin-top:1em;
-    align-items:center
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+  margin-top: 1em;
+  align-items: center;
 }
 
 .brand h1 {
-    font-family: 'Mouse Memoirs', sans-serif;
-    text-transform:uppercase;
-    letter-spacing:.2em;
-    color: var(--dark);
-    transition:color 2s ease-in-out;
+  font-family: 'Mouse Memoirs', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--dark);
+  transition: color 2s ease-in-out;
 }
 
 .brand h1:hover {
-    color: var(--light)
+  color: var(--light);
 }
 
 ul.navList {
-    list-style:none;
-    display:flex;
+  list-style: none;
+  display: flex;
 }
 
 .link {
-    text-decoration:none;
-    /* outline: 1px solid black; */
-    margin-right:1rem;
-    padding:1rem 2rem;
-    border-radius:.1em;
-    font-family: 'Mouse Memoirs', sans-serif;
-    color: var(--light);
-    background-color: var(--linkBg);
-    transition:background-color, color .5s ease
+  text-decoration: none;
+
+  /* outline: 1px solid black; */
+  margin-right: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 0.1em;
+  font-family: 'Mouse Memoirs', sans-serif;
+  color: var(--light);
+  background-color: var(--linkBg);
+  transition: background-color, color 0.5s ease;
 }
 
 .link:hover {
-    background-color: var(--hover);
-    color: var(--dark)
+  background-color: var(--hover);
+  color: var(--dark);
 }
 
 .link:active {
-    background-color: var(--active)
+  background-color: var(--active);
 }

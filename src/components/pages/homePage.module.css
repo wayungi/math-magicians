@@ -2,29 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 :root {
-    --light: rgb(224, 141, 121);
-    --active: rgb(168, 130, 221);
-    --hover: rgb(121, 98, 165);
-    --linkBg: rgb(73, 65, 109);
-    --dark: rgb(73, 65, 109);
+  --light: rgb(224, 141, 121);
 }
 
 .homePage {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    padding:3rem 4rem 1rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 4rem 1rem 4rem;
 }
 
 .homePage h1 {
-    font-family: 'Mouse Memoirs', sans-serif;
-    color: var(--light);
-    padding-bottom: 2rem;
+  font-family: 'Mouse Memoirs', sans-serif;
+  color: var(--light);
+  padding-bottom: 2rem;
 }
 
 .homePage p {
-    font-family: 'Rubik', sans-serif;
-    margin-bottom:1rem;
-    line-height: 1.8rem;
-
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: 1rem;
+  line-height: 1.8rem;
 }

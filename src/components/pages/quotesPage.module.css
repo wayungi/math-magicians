@@ -1,23 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 :root {
-    --light: rgb(224, 141, 121);
-    --active: rgb(168, 130, 221);
-    --hover: rgb(121, 98, 165);
-    --linkBg: rgb(73, 65, 109);
-    --dark: rgb(73, 65, 109);
+  --light: rgb(224, 141, 121);
 }
 
-
-
 .quotesWrapper {
-    display:flex;
-    justify-content: center;
-    height: 80vh;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
 }
 
 .quotesWrapper p {
-    font-family: 'Rubik', sans-serif;
-    color: var(--light);
+  font-family: 'Rubik', sans-serif;
+  color: var(--light);
 }
