@@ -1,8 +1,10 @@
+import styles from './quotesPage.module.css';
+
 const QuotesPage = () => (
-  <div>
+  <div className={styles.quotesWrapper}>
     <p>
-      In the above example, the name property with the value Gulshan has been
-      passed from the Example component to the Tool component.
+      5629 is the maximum value of n so that there exist 5 denominations of stamps so that
+      every postage from 1 to n can be paid for with at most 16 stamps.
     </p>
   </div>
 );
