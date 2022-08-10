@@ -8,8 +8,7 @@ div.calculator {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 20% 80%;
-  width: 30%;
-  margin: 40px auto;
+  width: 100%;
 }
 
 .screen,
