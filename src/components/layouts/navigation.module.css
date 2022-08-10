@@ -2,10 +2,11 @@
 
 :root {
     --light: rgb(224, 141, 121);
-    --linkBg: rgb(73, 65, 109);
-    --hover: rgb(121, 98, 165);
-    --dark: rgb(73, 65, 109);
     --active: rgb(168, 130, 221);
+    --hover: rgb(121, 98, 165);
+    --linkBg: rgb(73, 65, 109);
+    --dark: rgb(73, 65, 109);
+    
 }
 .header {
     display:flex;
@@ -45,7 +46,6 @@ ul.navList {
     transition:background-color, color .5s ease
 }
 
-/* lvha */
 .link:hover {
     background-color: var(--hover);
     color: var(--dark)
